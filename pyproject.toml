@@ -1,0 +1,9 @@
+[project]
+name = "frp-grid-interface-preprocessor"
+version = "0.1.0"
+description = "Preprocessor for a four-node FRP-grid--concrete interface Abaqus UEL"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

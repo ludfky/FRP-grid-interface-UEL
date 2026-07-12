@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated journal article."
+title: "FRP-grid--concrete mixed-mode interface UEL and preprocessor"
+type: software
+authors:
+  - family-names: Lu
+    given-names: Dengfeng
+  - family-names: Wang
+    given-names: Xin
+  - family-names: Sun
+    given-names: Zhen
+  - family-names: Wu
+    given-names: Zhishen
+version: 0.1.0
+date-released: 2026-07-12
+repository-code: "REPLACE_WITH_PUBLIC_GITHUB_URL"
+license: MIT
