@@ -10,13 +10,6 @@
 ! Each node has three translational degrees of freedom (1,2,3).
 ! Two Gauss points are used along the element length. The branch width is
 ! integrated analytically through the tributary area b_f * l_e.
-!
-! IMPORTANT
-! ---------
-! This is a transparent reference implementation of the equations and workflow
-! described in the accompanying manuscript. Before citing it as the exact code
-! used to generate published results, compare it line-by-line with the original
-! production UEL and reproduce the single-element and specimen-level benchmarks.
 ! ============================================================================
 
 subroutine UEL(RHS,AMATRX,SVARS,ENERGY,NDOFEL,NRHS,NSVARS, &
