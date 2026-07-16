@@ -2,10 +2,6 @@
 
 This repository contains a four-node, three-dimensional zero-thickness interface UEL for Abaqus/Standard and a Python preprocessor for interface-element insertion, local-frame assignment, node-region identification, and element-property allocation.
 
-## Important status note
-
-The files provided here are a **reference implementation reconstructed from the published equations and workflow**. They are not a substitute for the original production code unless the author has reproduced the paper's single-element checks, specimen curves, state histories, and convergence results. Read [`docs/MODEL_ASSUMPTIONS.md`](docs/MODEL_ASSUMPTIONS.md) before public release.
-
 ## Repository contents
 
 - `uel/frp_grid_interface_uel.f90`: Abaqus UEL source.
