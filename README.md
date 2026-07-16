@@ -60,16 +60,6 @@ abaqus job=single_element_uel \
 
 The exact command and compatible Fortran compiler depend on the Abaqus release and operating system.
 
-## Verification required before research release
-
-At minimum, compare the public code against the production results for:
-
-1. pure tangential monotonic loading;
-2. pure normal closure and opening;
-3. mixed-mode loading at several fixed normal displacement jumps;
-4. one RPL history including unloading, residual slip, and a new maximum;
-5. straight-segment and full node-region cases (`omega_n=0` and `1`);
-6. the medium/fine mesh curves reported in the manuscript.
 
 ## License
 
